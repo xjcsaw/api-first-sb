@@ -1,3 +1,4 @@
+title: OrderList
 type: array
 items:
   $ref: order.yaml

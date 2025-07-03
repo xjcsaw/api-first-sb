@@ -1,3 +1,4 @@
+title: CustomerList
 type: array
 items:
   $ref: customer.yaml

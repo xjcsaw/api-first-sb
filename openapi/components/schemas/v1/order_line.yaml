@@ -1,3 +1,4 @@
+title: OrderLine
 type: object
 properties:
   id:

@@ -1,3 +1,4 @@
+title: Order
 type: object
 properties:
   id:

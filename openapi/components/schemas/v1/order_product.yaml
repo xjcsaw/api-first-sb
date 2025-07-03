@@ -1,3 +1,4 @@
+title: OrderProduct
 type: object
 properties:
   id:

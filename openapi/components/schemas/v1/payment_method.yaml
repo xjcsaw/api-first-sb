@@ -1,3 +1,4 @@
+title: PaymentMethod
 type: object
 properties:
   id:

@@ -1,3 +1,4 @@
+title: ProductList
 type: array
 items:
   $ref: 'product.yaml'
