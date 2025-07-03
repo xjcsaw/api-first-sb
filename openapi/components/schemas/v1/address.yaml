@@ -4,37 +4,46 @@ properties:
     type: string
     format: uuid
     description: Unique identifier representing a specific customer
-    example: "cust_123e4567-e89b-12d3-a456-426614174000"
+    readOnly: true
   addressLine1:
     type: string
     description: Address Line 1
     minLength: 3
     maxLength: 100
-    example: "1234 Main Street"
+    example: 123 Main Street
   addressLine2:
-    type: string
+    type:
+      - string
+      - 'null'
     description: Address Line 2
     minLength: 3
     maxLength: 100
-    example: "Suite 100"
   city:
     type: string
     description: City
     minLength: 2
     maxLength: 100
-    example: "San Francisco"
+    example: St Petersburg
   state:
     type: string
     description: 2 character state code
     minLength: 2
     maxLength: 2
-    example: "CA"
+    example: FL
   zip:
     type: string
     description: Zip Code
     minLength: 5
     maxLength: 10
-    example: "94105-1234"
+    example: 33701
+  dateCreated:
+    type: string
+    format: date-time
+    readOnly: true
+  dateUpdated:
+    type: string
+    format: date-time
+    readOnly: true
 required:
   - addressLine1
   - city
