@@ -4,6 +4,7 @@ properties:
     type: string
     format: uuid
     description: Unique identifier representing a specific customer
+    readOnly: true
   name:
     $ref: name.yaml
   shipToAddress:
@@ -14,10 +15,12 @@ properties:
     type: string
     maxLength: 255
     minLength: 3
+    example: john@springframework.guru
   phone:
     type: string
     maxLength: 15
     minLength: 7
+    example: 800-555-1212
   paymentMethods:
     type: array
     items:
