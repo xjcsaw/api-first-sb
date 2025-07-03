@@ -11,10 +11,6 @@ properties:
     type: string
     description: The description of the category
   dateCreated:
-    type: string
-    format: date-time
-    description: The date the image was created
+    $ref: ../common/iso_timestamp.yaml
   dateUpdated:
-    type: string
-    format: date-time
-    description: The date the image was updated
+    $ref: ../common/iso_timestamp.yaml

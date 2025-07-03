@@ -11,10 +11,6 @@ properties:
   altText:
     type: string
   dateCreated:
-    type: string
-    format: date-time
-    description: The date the image was created
+    $ref: ../common/iso_timestamp.yaml
   dateUpdated:
-    type: string
-    format: date-time
-    description: The date the image was updated
+    $ref: ../common/iso_timestamp.yaml
